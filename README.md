@@ -7,11 +7,11 @@ I made this because Python venvs suck and hopefully this makes them easier to ma
 
 ## 🚀 Features
 
-- ✅ **Create** Python virtual environments instantly.
-- 📌 **List** existing environments along with their last modification dates.
-- 🔑 **Activate** environments seamlessly from your shell.
+- **Create** Python virtual environments instantly.
+- **List** existing environments along with their last modification dates.
+- **Activate** environments seamlessly from your shell.
+- **Delete** virtual environments easily.
 - Automatic shell integration for effortless activation (`vengo activate myenv`).
-- 🗑 **Delete** virtual environments easily.
 ---
 
 ## 💻 Installation

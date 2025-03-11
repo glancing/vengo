@@ -19,7 +19,7 @@ I made this because Python venvs suck and hopefully this makes them easier to ma
 ### Using Go (recommended):
 
 ```bash
-go install github.com/github/vengo@latest
+go install github.com/glancing/vengo@latest
 ```
 Make sure your Go bin directory (`$HOME/go/bin`) is in your `PATH`. If it's not, add this line to your shell config (`~/.bashrc` or `~/.zshrc`
 

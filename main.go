@@ -147,7 +147,13 @@ func listEnvs() {
 	fmt.Println("📌 Your virtual environments:")
 	for _, env := range envs {
 		if env.IsDir() {
-			fmt.Println(" -", env.Name())
+			info, err := env.Info()
+			if err != nil {
+				fmt.Printf(" - %s (error getting info)\n", env.Name())
+			} else {
+				modTime := info.ModTime().Format("2006-01-02 15:04:05")
+				fmt.Printf(" - %s (Last Modified: %s)\n", env.Name(), modTime)
+			}
 		}
 	}
 }

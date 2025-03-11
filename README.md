@@ -14,7 +14,7 @@ I made this because Python venvs suck and hopefully this makes them easier to ma
 - Automatic shell integration for effortless activation (`vengo activate myenv`).
 ---
 
-## 💻 Installation
+## Installation
 
 ### Using Go (recommended):
 
@@ -34,15 +34,15 @@ source ~/.bashrc  # or ~/.zshrc
 ```
 ---
 
-## 📖 Usage
+## Usage
 
-### 🔨 Create a new environment
+### Create a new environment
 
 ```bash
 vengo create myenv
 ```
 
-### 📋 List your environments
+### List your environments
 
 ```bash
 vengo list
